@@ -1,0 +1,146 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+/******General*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #343a40;
+}
+
+h2,
+h3 {
+    color: #343a40;
+}
+
+p {
+    color: #495057;
+}
+/*****Dots******/
+.dots .dot{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 1px;
+    background-color: #e9ecef;
+    z-index: -1;
+}
+.dots .dot__1{
+    transform: translateX(200px);
+}
+.dots .dot__2{
+    transform: translateX(400px);
+}
+.dots .dot__3{
+    transform: translateX(600px);
+}
+.dots .dot__center{
+    transform: translateX(0px);
+}
+.dots .dot__4{
+    transform: translateX(-200px);
+}
+.dots .dot__5{
+    transform: translateX(-400px);
+}
+.dots .dot__6{
+    transform: translateX(-600px);
+}
+/*****Main-page*/
+.section__hero {
+    padding: 200px 80px;
+}
+
+.profil-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+/********Portfolio Section****/
+.section__portfolio h3 {
+        color: white;
+}
+
+.section__portfolio .filler {
+    height: 100%;
+    width: 100%;
+}
+
+.section__portfolio .filler {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    min-height: 100px;
+}
+
+.section__portfolio .filler-1 {
+    background-color: #060047;
+}
+
+.section__portfolio .filler-2 {
+    background-color: #B3005E;
+}
+
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row img,
+.row filler {
+    border-radius: 5px;
+}
+
+/*********About Section****/
+.section__about {
+    padding: 200px 0 100px 0;
+}
+
+.section__about h2 {
+    padding-bottom: 25px;
+}
+
+.section__about p {
+    letter-spacing: 0.55px;
+}
+
+/*******Footer Section*****/
+.section__footer {
+    padding: 50px 0;
+    position: relative;
+}
+
+.section__footer a {
+    padding: 20px 20px;
+    color: #ee6352;
+    display: inline-block;
+}
+
+.section__footer .pointer__arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #1b1d21;
+    color: #fff;
+}
