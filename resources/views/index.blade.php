@@ -2,21 +2,18 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 
-    <!--Poppins Font-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <!--CSS File-->
+
     <link rel="stylesheet" href={{ asset('style.css') }}>
-    <title>Personal Portfolio</title>
+
+    <title>Andrian</title>
 </head>
 
 <body>
@@ -35,19 +32,19 @@
     <!--Navigation Portion-->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">ANDRIAN</a>
+            <a class="navbar-brand nav-name" href="#">ANDRIAN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active nav-text">
                         <a class="nav-link" href="#section__portfolio_id">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-text">
                         <a class="nav-link" href="#section__about_id">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-text">
                         <a class="nav-link" href="#section__footer_id">Contact</a>
                     </li>
                 </ul>
@@ -114,7 +111,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h2>Contact Info</h2>
-                    <p class="fw-bold">naird.id@gmail.com</p>
+                    <p class="fw-bold">andrian@gmail.com</p>
                     <p>081212344321</p>
                 </div>
             </div>
@@ -124,10 +121,10 @@
     <!--Footer Section-->
     <div class="container-fluid p-0">
         <footer class="section__footer text-center" id="section__footer_id">
-            <a href="https://www.instagram.com/andrian07__/"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/andrian07__/"><i class="fab fa-behance"></i></a>
-            <a href="https://www.instagram.com/andrian07__/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.instagram.com/andrian07__/"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/andrian07__/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/andrian-tan-776695246/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.figma.com/@andrian2" target="_blank"><i class="fab fa-figma"></i></a>
+            <a href="https://github.com/andriandrian" target="_blank"><i class="fab fa-github"></i></a>
             
             <h6>&copy; All rights reserved.</h6>
             <div class="pointer__arrow">

@@ -1,7 +1,7 @@
 /*font-family: 'Poppins', sans-serif;*/
 /*font-family: 'Source Sans Pro', sans-serif;*/
 
-/******General*/
+/***General***/
 html {
     scroll-behavior: smooth;
 }
@@ -30,7 +30,18 @@ h3 {
 p {
     color: #495057;
 }
-/*****Dots******/
+
+/*** Nav ***/
+.nav-name{
+    font-weight: 700;
+
+}
+.nav-text {
+    font-weight: 600;
+}
+
+
+/***Dots***/
 .dots .dot{
     position: absolute;
     top: 0;
@@ -62,7 +73,9 @@ p {
 .dots .dot__6{
     transform: translateX(-600px);
 }
-/*****Main-page*/
+
+
+/***Main-page***/
 .section__hero {
     padding: 200px 80px;
 }
@@ -75,7 +88,8 @@ p {
     margin-bottom: 40px;
 }
 
-/********Portfolio Section****/
+
+/***Portfolio Section***/
 .section__portfolio h3 {
         color: white;
 }
@@ -112,7 +126,8 @@ p {
     border-radius: 5px;
 }
 
-/*********About Section****/
+
+/***About Section***/
 .section__about {
     padding: 200px 0 100px 0;
 }
@@ -125,7 +140,8 @@ p {
     letter-spacing: 0.55px;
 }
 
-/*******Footer Section*****/
+
+/***Footer Section***/
 .section__footer {
     padding: 50px 0;
     position: relative;
